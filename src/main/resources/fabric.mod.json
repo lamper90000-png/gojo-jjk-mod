@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "gojo-jjk-mod",
+  "version": "${version}",
+  "name": "Gojo JJK Mod",
+  "description": "Adds Gojo's moves from Jujutsu Kaisen to Minecraft!",
+  "authors": [
+    "lamper90000-png"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/gojo-jjk-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lamper.gojojjk.GojoJJKMod"
+    ]
+  },
+  "mixins": [
+    "gojo-jjk-mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "java": ">=${java_version}"
+  }
+}
