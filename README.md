@@ -4,7 +4,14 @@ A Minecraft Fabric mod that adds Gojo Satoru's incredible powers from Jujutsu Ka
 
 ## 📥 Download
 
-**[Download Gojo JJK Mod v1.0.0](https://github.com/lamper90000-png/gojo-jjk-mod/releases/download/v1.0.0/gojo-jjk-mod-1.0.0.jar)**
+**[View Releases & Downloads](https://github.com/lamper90000-png/gojo-jjk-mod/releases)**
+
+To download the latest version:
+1. Go to the [Releases page](https://github.com/lamper90000-png/gojo-jjk-mod/releases)
+2. Download the `.jar` file (e.g., `gojo-jjk-mod-1.0.0.jar`)
+3. Place it in your `.minecraft/mods/` folder
+
+Or **build it yourself** from source (see below)
 
 ### Requirements
 - Minecraft 1.21.11
@@ -15,8 +22,8 @@ A Minecraft Fabric mod that adds Gojo Satoru's incredible powers from Jujutsu Ka
 ### Installation
 1. Download [Fabric Loader](https://fabricmc.net/use/) for 1.21.11
 2. Download [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) for 1.21.11
-3. Download this mod JAR from the link above
-4. Place both mod JARs in your `.minecraft/mods/` folder
+3. Download this mod JAR from the Releases page
+4. Place all mod JARs in your `.minecraft/mods/` folder
 5. Launch Minecraft with the Fabric profile
 
 ## 🔮 Features (In Development)
@@ -36,7 +43,7 @@ cd gojo-jjk-mod
 ./gradlew build
 ```
 
-The compiled mod will be in `build/libs/`
+The compiled mod will be in `build/libs/gojo-jjk-mod-1.0.0.jar`
 
 ## 📚 Development Setup
 
